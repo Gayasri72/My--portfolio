@@ -63,27 +63,27 @@ const Navbar = () => {
             />
           </div>
           <li>
-            <a href="#top" onclick={closeMenu}>
+            <a href="#top" onClick={closeMenu}>
               Home
             </a>
           </li>
           <li>
-            <a href="#about" onclick={closeMenu}>
+            <a href="#about" onClick={closeMenu}>
               About Me
             </a>
           </li>
           <li>
-            <a href="#services" onclick={closeMenu}>
+            <a href="#services" onClick={closeMenu}>
               Services
             </a>
           </li>
           <li>
-            <a href="#work" onclick={closeMenu}>
+            <a href="#work" onClick={closeMenu}>
               My Work
             </a>
           </li>
           <li>
-            <a href="#contact" onclick={closeMenu}>
+            <a href="#contact" onClick={closeMenu}>
               Contact Me
             </a>
           </li>
