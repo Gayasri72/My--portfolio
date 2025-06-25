@@ -55,6 +55,11 @@ const Navbar = () => {
               Contact Me
             </a>
           </li>
+          <li>
+            <a href="#blog" className="font-Ovo">
+              Blog
+            </a>
+          </li>
         </ul>
         <div className="flex items-center gap-4">
           <button>
@@ -106,6 +111,11 @@ const Navbar = () => {
           <li>
             <a href="#contact" onClick={closeMenu}>
               Contact Me
+            </a>
+          </li>
+           <li>
+            <a href="#blog" onClick={closeMenu}>
+              Blog
             </a>
           </li>
         </ul>

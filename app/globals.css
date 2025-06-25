@@ -1,20 +1,34 @@
 @import "tailwindcss";
 
+@theme {
+  --color-light-hover: #fcf4ff;
+  --color-dark-hover: #2a004a;
+  --color-dark-theme: #11001f;
+
+  --font-family-outfit: "Outfit", sans-serif;
+  --font-family-ovo: "Ovo", serif;
+
+  --shadow-black: 4px 4px 0 #000;
+  --shadow-white: 4px 4px 0 #fff;
+  
+  --grid-template-columns-auto: repeat(auto-fit, minmax(200px, 1fr));
+}
+
 * {
   font-family: "Outfit", sans-serif;
 }
 
-
-  @theme {
-    
-    --color-lighthover: "#fcf4ff";
-    --color-darkhover: "#2a004a";
-    --color-darktheme: "#11001f";
-  
-    
-    
-    --font-outfit:  "Outfit", "sans-serif";
-    --font-Ovo:  "Ovo", "serif";
-    
+@layer utilities {
+  .shadow-black {
+    box-shadow: var(--shadow-black);
   }
-
+  .shadow-white {
+    box-shadow: var(--shadow-white);
+  }
+  .hover\:shadow-black:hover {
+    box-shadow: var(--shadow-black);
+  }
+  .grid-cols-auto {
+    grid-template-columns: var(--grid-template-columns-auto);
+  }
+}
