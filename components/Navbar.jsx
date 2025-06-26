@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import { assets } from "@/assets/assets";
-const Navbar = () => {
+const Navbar = ({isDarkMode, setIsDarkMode}) => {
   const [isScroll, setIsScroll] = useState(false);
   const sideMenuRef = useRef();
   const openMenu = () => {
@@ -22,7 +22,7 @@ const Navbar = () => {
   }, []);
   return (
     <>
-      <div className="fixed top-0 right-0 w-11/12 -z-10 translate-y-[-80%]">
+      <div className="fixed top-0 right-0 w-11/12 -z-10 translate-y-[-80%] dark:hidden">
         <Image src={assets.header_bg_color} alt="header" className="w-full " />
       </div>
       <nav className={`w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50 ${isScroll ? "bg-white bg-opacity-50 backdrop-blur-lg shadow-sm" : ""}`}>
@@ -62,8 +62,8 @@ const Navbar = () => {
           </li>
         </ul>
         <div className="flex items-center gap-4">
-          <button>
-            <Image src={assets.moon_icon} alt="icon" className="w-6" />
+          <button onClick={() => setIsDarkMode((prev) => !prev)}>
+            <Image src={isDarkMode ? assets.sun_icon : assets.moon_icon} alt="icon" className="w-6" />
           </button>
           <a
             href="#contact"
