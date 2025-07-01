@@ -3,18 +3,18 @@ import Image from "next/image";
 import React, { useState } from "react";
 
 const Contact = () => {
-      const [result, setResult] = useState("")
+  const [result, setResult] = useState("");
 
   const onSubmit = async (event) => {
     event.preventDefault();
     setResult("Sending....");
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "fbc30ede-f871-4e5d-a1bd-8c42ea312b69");
+    formData.append("access_key", process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY);
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
-      body: formData
+      body: formData,
     });
 
     const data = await response.json();
@@ -44,20 +44,23 @@ const Contact = () => {
             type="text"
             placeholder="Enter Your Name"
             required
-            className="flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white dark:bg-darkHover/30 dark:border-white/90" name='name'
+            className="flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white dark:bg-darkHover/30 dark:border-white/90"
+            name="name"
           />
           <input
             type="email"
             placeholder="Enter Your Email"
             required
-            className="flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white  dark:bg-darkHover/30 dark:border-white/90" name='email'
+            className="flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white  dark:bg-darkHover/30 dark:border-white/90"
+            name="email"
           />
         </div>
         <textarea
           rows="6"
           placeholder="Enter Your Message"
           required
-          className="w-full p-4 outline-none border-[0.5px] border-gray-400 rounded-md bg-white mb-6  dark:bg-darkHover/30 dark:border-white/30" name='message'
+          className="w-full p-4 outline-none border-[0.5px] border-gray-400 rounded-md bg-white mb-6  dark:bg-darkHover/30 dark:border-white/30"
+          name="message"
         ></textarea>
         <button
           type="submit"
