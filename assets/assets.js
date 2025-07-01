@@ -78,7 +78,27 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
+        title: 'MERN Web App',
+        description: 'Green-Aqua',
+        bgImage: '/work-1.png',
+    },
+    {
+        title: 'Node js',
+        description: 'Natours',
+        bgImage: '/work-2.png',
+    },
+    {
+        title: 'MERN Web App',
+        description: 'Travalia',
+        bgImage: '/work-3.png',
+    },
+    {
+        title: 'Javascript App',
+        description: 'UI/UX Design',
+        bgImage: '/work-4.png',
+    },
+    {
+        title: 'SpringBoot Web App',
         description: 'Web Design',
         bgImage: '/work-1.png',
     },
@@ -87,16 +107,7 @@ export const workData = [
         description: 'Mobile App',
         bgImage: '/work-2.png',
     },
-    {
-        title: 'Photography site',
-        description: 'Web Design',
-        bgImage: '/work-3.png',
-    },
-    {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
-        bgImage: '/work-4.png',
-    },
+   
 ]
 
 export const serviceData = [
