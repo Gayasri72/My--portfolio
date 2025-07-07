@@ -102,20 +102,20 @@ export const workData = [
     topic: "Travalia",
     bgImage: "/work-3.png",
     description:
-      "This is a project made to learn the latest languages by building an app.",
+      "This is a project made to for the 3rd year 2nd semester university group project.my contribution is mention in the readme file.",
     skills: ["Node js", "Javascript", "React", "MongoDB"],
     demo: "https://www.example.com",
     source: "https://github.com/Gayasri72/Travalia.git",
   },
   {
     title: "Javascript App",
-    topic: "UI/UX Design",
+    topic: "Forkify",
     bgImage: "/work-4.png",
     description:
-      "This is a project made to learn the latest languages by building an app.",
+      "This is a project made to learn the javascript.",
     skills: ["Javascript", "Html", "Css"],
     demo: "https://www.example.com",
-    source: "https://github.com/Gayasri72/my-Portfolio.git",
+    source: "https://github.com/Gayasri72/Forkify-recipe-app",
   },
   {
     title: "SpringBoot Web App",
@@ -126,6 +126,26 @@ export const workData = [
     skills: ["React", "Css", "Node"],
     demo: "https://www.example.com",
     source: "https://github.com/Gayasri72/my-Portfolio.git",
+  },
+   {
+    title: "MERN Web App",
+    topic: "BoardMe",
+    bgImage: "/work-1.png",
+    description:
+      "This is a project made to for the 2nd year 2nd semester university group project.my contribution is mention in the readme file.",
+    skills: ["Node js", "Javascript", "React", "MongoDB"],
+    demo: "https://www.example.com",
+    source: "https://github.com/Gayasri72/BoardMe-Javascript.git",
+  },
+   {
+    title: "Authentication App",
+    topic: "Web Design",
+    bgImage: "/work-1.png",
+    description:
+      "This is a project made to learn authentication system of the mern web app using jwt.",
+    skills: ["Node js", "Javascript", "React", "MongoDB"],
+    demo: "https://www.example.com",
+    source: "https://github.com/Gayasri72/AuthTest1.git",
   },
   {
     title: "Machine Learning",
