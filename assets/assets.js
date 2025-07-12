@@ -139,12 +139,12 @@ export const workData = [
   },
    {
     title: "Authentication App",
-    topic: "Web Design",
+    topic: "NeoNest",
     bgImage: "/work-1.png",
     description:
       "This is a project made to learn authentication system of the mern web app using jwt.",
     skills: ["Node js", "Javascript", "React", "MongoDB"],
-    demo: "https://www.example.com",
+    demo: "https://neonest-flame.vercel.app",
     source: "https://github.com/Gayasri72/AuthTest1.git",
   },
   {
