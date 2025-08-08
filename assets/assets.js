@@ -77,26 +77,26 @@ export const assets = {
 };
 
 export const workData = [
-  {
-    title: "MERN Web App",
-    topic: "Green-Aqua",
-    bgImage: "/work-1.png",
-    description:
-      "This is a project made to learn the latest languages by building an app.",
-    skills: ["Node js", "Javascript", "React", "MongoDB"],
-    demo: "https://www.example.com",
-    source: "https://github.com/Gayasri72/Grren-Aqua-Land",
-  },
-  {
-    title: "Node js",
-    topic: "Natours",
-    bgImage: "/work-2.png",
-    description:
-      "This is a project made to learn the latest languages by building an app.",
-    skills: ["Javascript", "Css", "Node", "MongoDB"],
-    demo: "https://www.example.com",
-    source: "https://github.com/Gayasri72/my-Portfolio.git",
-  },
+  // {
+  //   title: "MERN Web App",
+  //   topic: "Green-Aqua",
+  //   bgImage: "/work-1.png",
+  //   description:
+  //     "This is a project made to learn the latest languages by building an app.",
+  //   skills: ["Node js", "Javascript", "React", "MongoDB"],
+  //   demo: "https://www.example.com",
+  //   source: "https://github.com/Gayasri72/Grren-Aqua-Land",
+  // },
+  // {
+  //   title: "Node js",
+  //   topic: "Natours",
+  //   bgImage: "/work-2.png",
+  //   description:
+  //     "This is a project made to learn the latest languages by building an app.",
+  //   skills: ["Javascript", "Css", "Node", "MongoDB"],
+  //   demo: "https://www.example.com",
+  //   source: "https://github.com/Gayasri72/my-Portfolio.git",
+  // },
   {
     title: "MERN Web App",
     topic: "Travalia",
@@ -106,6 +106,16 @@ export const workData = [
     skills: ["Node js", "Javascript", "React", "MongoDB"],
     demo: "https://www.example.com",
     source: "https://github.com/Gayasri72/Travalia.git",
+  },
+   {
+    title: "Authentication App",
+    topic: "NeoNest",
+    bgImage: "/work-1.png",
+    description:
+      "This is a project made to learn authentication system of the mern web app using jwt.",
+    skills: ["Node js", "Javascript", "React", "MongoDB"],
+    demo: "https://neonest-flame.vercel.app",
+    source: "https://github.com/Gayasri72/AuthTest1.git",
   },
   {
     title: "Javascript App",
@@ -123,9 +133,19 @@ export const workData = [
     bgImage: "/work-1.png",
     description:
       "This is a project made to learn the latest languages by building an app.",
-    skills: ["React", "Css", "Node"],
-    demo: "https://www.example.com",
+    skills: ["React", "Css", "Java","SprinBoot"],
+    demo: "https://gayasripethum.vercel.app/",
     source: "https://github.com/Gayasri72/my-Portfolio.git",
+  },
+  {
+    title: "SpringBoot Web App",
+    topic: "Web Design",
+    bgImage: "/work-1.png",
+    description:
+      "This is a project made to learn the latest languages by building an app.",
+    skills: ["React", "Css", "Java","SprinBoot"],
+    demo: "https://gayasripethum.vercel.app/",
+    source: "https://github.com/Gayasri72/JobApp.git",
   },
    {
     title: "MERN Web App",
@@ -137,16 +157,7 @@ export const workData = [
     demo: "https://www.example.com",
     source: "https://github.com/Gayasri72/BoardMe-Javascript.git",
   },
-   {
-    title: "Authentication App",
-    topic: "NeoNest",
-    bgImage: "/work-1.png",
-    description:
-      "This is a project made to learn authentication system of the mern web app using jwt.",
-    skills: ["Node js", "Javascript", "React", "MongoDB"],
-    demo: "https://neonest-flame.vercel.app",
-    source: "https://github.com/Gayasri72/AuthTest1.git",
-  },
+  
   {
     title: "Machine Learning",
     topic: "Web app",
