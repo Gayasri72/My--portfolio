@@ -256,3 +256,42 @@ export const blogsData = [
     link: "https://medium.com/@gayasripethum1/a-high-level-overview-of-javascript-d73fdba9828d",
   },
 ];
+
+export const certificationsData = [
+  {
+    title: "JavaScript Algorithms and Data Structures",
+    issuer: "freeCodeCamp",
+    date: "2024-01-15",
+    credentialId: "FCC-ABC123456",
+    link: "https://www.freecodecamp.org/certification/username/javascript-algorithms-and-data-structures",
+    description: "Comprehensive course covering JavaScript fundamentals, ES6, data structures, and algorithmic thinking.",
+    skills: ["JavaScript", "Algorithms", "Data Structures", "ES6"]
+  },
+  {
+    title: "React - The Complete Guide",
+    issuer: "Udemy",
+    date: "2024-03-20",
+    credentialId: "UC-REACT123",
+    link: "https://www.udemy.com/certificate/UC-REACT123/",
+    description: "In-depth React course covering hooks, context, Redux, and modern React patterns.",
+    skills: ["React", "Redux", "Hooks", "Context API"]
+  },
+  {
+    title: "AWS Certified Cloud Practitioner",
+    issuer: "Amazon Web Services",
+    date: "2024-05-10",
+    credentialId: "AWS-CCP-001",
+    link: "https://aws.amazon.com/verification",
+    description: "Foundational understanding of AWS Cloud services and basic architectural principles.",
+    skills: ["AWS", "Cloud Computing", "EC2", "S3"]
+  },
+  {
+    title: "Node.js - The Complete Guide",
+    issuer: "Udemy",
+    date: "2024-02-28",
+    credentialId: "UC-NODE456",
+    link: "https://www.udemy.com/certificate/UC-NODE456/",
+    description: "Comprehensive Node.js course covering Express, MongoDB, authentication, and deployment.",
+    skills: ["Node.js", "Express", "MongoDB", "Authentication"]
+  }
+];
