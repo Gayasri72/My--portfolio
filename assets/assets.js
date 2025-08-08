@@ -107,7 +107,7 @@ export const workData = [
     demo: "https://www.example.com",
     source: "https://github.com/Gayasri72/Travalia.git",
   },
-   {
+  {
     title: "Authentication App",
     topic: "NeoNest",
     bgImage: "/work-1.png",
@@ -121,8 +121,7 @@ export const workData = [
     title: "Javascript App",
     topic: "Forkify",
     bgImage: "/work-4.png",
-    description:
-      "This is a project made to learn the javascript.",
+    description: "This is a project made to learn the javascript.",
     skills: ["Javascript", "Html", "Css"],
     demo: "https://www.example.com",
     source: "https://github.com/Gayasri72/Forkify-recipe-app",
@@ -133,7 +132,7 @@ export const workData = [
     bgImage: "/work-1.png",
     description:
       "This is a project made to learn the latest languages by building an app.",
-    skills: ["React", "Css", "Java","SprinBoot"],
+    skills: ["React", "Css", "Java", "SprinBoot"],
     demo: "https://gayasripethum.vercel.app/",
     source: "https://github.com/Gayasri72/my-Portfolio.git",
   },
@@ -143,11 +142,11 @@ export const workData = [
     bgImage: "/work-1.png",
     description:
       "This is a project made to learn the latest languages by building an app.",
-    skills: ["React", "Css", "Java","SprinBoot"],
+    skills: ["React", "Css", "Java", "SprinBoot"],
     demo: "https://gayasripethum.vercel.app/",
     source: "https://github.com/Gayasri72/JobApp.git",
   },
-   {
+  {
     title: "MERN Web App",
     topic: "BoardMe",
     bgImage: "/work-1.png",
@@ -157,7 +156,7 @@ export const workData = [
     demo: "https://www.example.com",
     source: "https://github.com/Gayasri72/BoardMe-Javascript.git",
   },
-  
+
   {
     title: "Machine Learning",
     topic: "Web app",
@@ -249,7 +248,7 @@ export const blogsData = [
     date: "2025-01-06",
     link: "https://medium.com/@gayasripethum1/data-structures-in-programming-9db2052c2f01",
   },
-   {
+  {
     title: "A high-level overview of javascript",
     description: "Exploring the new features introduced in JavaScript ES2023.",
     date: "2025-01-03",
@@ -259,39 +258,43 @@ export const blogsData = [
 
 export const certificationsData = [
   {
-    title: "JavaScript Algorithms and Data Structures",
-    issuer: "freeCodeCamp",
-    date: "2024-01-15",
+    title: "The modern JavaScript course for everyone! Master JavaScript with projects, challenges and theory",
+    issuer: "udemy",
+    date: "2025-08-07",
     credentialId: "FCC-ABC123456",
-    link: "https://www.freecodecamp.org/certification/username/javascript-algorithms-and-data-structures",
-    description: "Comprehensive course covering JavaScript fundamentals, ES6, data structures, and algorithmic thinking.",
-    skills: ["JavaScript", "Algorithms", "Data Structures", "ES6"]
+    link: "https://www.udemy.com/certificate/UC-dab31557-aa43-47eb-b536-843f118ec3ea/",
+    description:
+      "Comprehensive course covering JavaScript fundamentals, ES6, data structures, and algorithmic thinking.",
+    skills: ["JavaScript", "OOP", "Data Structures", "ES6"],
   },
   {
-    title: "React - The Complete Guide",
+    title: "Node.js, Express, MongoDB & More: The Complete Bootcamp ",
     issuer: "Udemy",
-    date: "2024-03-20",
+    date: "2025-07-16",
     credentialId: "UC-REACT123",
-    link: "https://www.udemy.com/certificate/UC-REACT123/",
-    description: "In-depth React course covering hooks, context, Redux, and modern React patterns.",
-    skills: ["React", "Redux", "Hooks", "Context API"]
+    link: "https://www.udemy.com/certificate/UC-3442492a-8f3d-4a2e-b853-8c62b6e67ca2/",
+    description:
+      "In-depth React course covering hooks, context, Redux, and modern React patterns.",
+    skills: ["Node", "Mongoose", "Express", "MongoDB"],
   },
   {
-    title: "AWS Certified Cloud Practitioner",
-    issuer: "Amazon Web Services",
-    date: "2024-05-10",
+    title: " Docker & Kubernetes: The Practical Guide",
+    issuer: "udemy",
+    date: "2025-03-116",
     credentialId: "AWS-CCP-001",
-    link: "https://aws.amazon.com/verification",
-    description: "Foundational understanding of AWS Cloud services and basic architectural principles.",
-    skills: ["AWS", "Cloud Computing", "EC2", "S3"]
+    link: "https://www.udemy.com/certificate/UC-eea72472-3362-4fea-a810-fdb45061d5c6/",
+    description:
+      "Foundational understanding of AWS Cloud services and basic architectural principles.",
+    skills: ["Docker", "Kubernetes"],
   },
-  {
-    title: "Node.js - The Complete Guide",
-    issuer: "Udemy",
-    date: "2024-02-28",
-    credentialId: "UC-NODE456",
-    link: "https://www.udemy.com/certificate/UC-NODE456/",
-    description: "Comprehensive Node.js course covering Express, MongoDB, authentication, and deployment.",
-    skills: ["Node.js", "Express", "MongoDB", "Authentication"]
-  }
+  // {
+  //   title: "Node.js - The Complete Guide",
+  //   issuer: "Udemy",
+  //   date: "2024-02-28",
+  //   credentialId: "UC-NODE456",
+  //   link: "https://www.udemy.com/certificate/UC-NODE456/",
+  //   description:
+  //     "Comprehensive Node.js course covering Express, MongoDB, authentication, and deployment.",
+  //   skills: ["Node.js", "Express", "MongoDB", "Authentication"],
+  // },
 ];
