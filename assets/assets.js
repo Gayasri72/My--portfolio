@@ -274,7 +274,7 @@ export const certificationsData = [
     credentialId: "UC-REACT123",
     link: "https://www.udemy.com/certificate/UC-3442492a-8f3d-4a2e-b853-8c62b6e67ca2/",
     description:
-      "In-depth React course covering hooks, context, Redux, and modern React patterns.",
+      "Master Node by building a real-world RESTful API and web app (with authentication, Node.js security, payments & more)",
     skills: ["Node", "Mongoose", "Express", "MongoDB"],
   },
   {
@@ -284,7 +284,7 @@ export const certificationsData = [
     credentialId: "AWS-CCP-001",
     link: "https://www.udemy.com/certificate/UC-eea72472-3362-4fea-a810-fdb45061d5c6/",
     description:
-      "Foundational understanding of AWS Cloud services and basic architectural principles.",
+      "FLearn Docker, Docker Compose, Multi-Container Projects, Deployment and all about Kubernetes from the ground up!",
     skills: ["Docker", "Kubernetes"],
   },
   // {
