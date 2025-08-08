@@ -280,7 +280,7 @@ export const certificationsData = [
   {
     title: " Docker & Kubernetes: The Practical Guide",
     issuer: "udemy",
-    date: "2025-03-116",
+    date: "2025-03-16",
     credentialId: "AWS-CCP-001",
     link: "https://www.udemy.com/certificate/UC-eea72472-3362-4fea-a810-fdb45061d5c6/",
     description:
