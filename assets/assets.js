@@ -100,7 +100,7 @@ export const workData = [
   {
     title: "MERN Web App",
     topic: "Travalia",
-    bgImage: "/work-3.png",
+    bgImage: "/work-1.jpeg",
     description:
       "This is a project made to for the 3rd year 2nd semester university group project.my contribution is mention in the readme file.",
     skills: ["Node js", "Javascript", "React", "MongoDB"],
