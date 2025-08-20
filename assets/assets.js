@@ -110,7 +110,7 @@ export const workData = [
   {
     title: "Authentication App",
     topic: "NeoNest",
-    bgImage: "/work-1.png",
+    bgImage: "/work-5.png",
     description:
       "This is a project made to learn authentication system of the mern web app using jwt.",
     skills: ["Node js", "Javascript", "React", "MongoDB"],
@@ -120,7 +120,7 @@ export const workData = [
   {
     title: "Javascript App",
     topic: "Forkify",
-    bgImage: "/work-4.png",
+    bgImage: "/work-2.jpeg",
     description: "This is a project made to learn the javascript.",
     skills: ["Javascript", "Html", "Css"],
     demo: "https://forkify-recipe-app-six.vercel.app/",
