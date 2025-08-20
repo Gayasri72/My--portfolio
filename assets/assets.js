@@ -123,7 +123,7 @@ export const workData = [
     bgImage: "/work-4.png",
     description: "This is a project made to learn the javascript.",
     skills: ["Javascript", "Html", "Css"],
-    demo: "https://www.example.com",
+    demo: "https://forkify-recipe-app-six.vercel.app/",
     source: "https://github.com/Gayasri72/Forkify-recipe-app",
   },
   {
@@ -232,13 +232,13 @@ export const blogsData = [
   {
     title: "The javascript Engine and Runtime",
     description:
-      "A deep dive into the world of React Hooks and how to use them effectively.",
+      "A deep dive into the world of Javascript and how it works.",
     date: "2025-02-26",
     link: "https://medium.com/@gayasripethum1/the-javascript-engine-and-runtime-0ae550648ec6",
   },
   {
     title: "What is Express js",
-    description: "Comparing CSS Grid and Flexbox for layout design.",
+    description: "Lets explore node famous framework ",
     date: "2025-01-10",
     link: "https://medium.com/@gayasripethum1/what-is-express-js-460051917fc6",
   },
@@ -250,7 +250,7 @@ export const blogsData = [
   },
   {
     title: "A high-level overview of javascript",
-    description: "Exploring the new features introduced in JavaScript ES2023.",
+    description: "Do you know javascript",
     date: "2025-01-03",
     link: "https://medium.com/@gayasripethum1/a-high-level-overview-of-javascript-d73fdba9828d",
   },
