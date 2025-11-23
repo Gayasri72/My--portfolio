@@ -108,6 +108,17 @@ export const workData = [
     source: "https://github.com/Gayasri72/Travalia.git",
   },
   {
+    title: "MERN Full stack",
+    topic: "EcoJourney",
+    bgImage: "/work-6.png",
+    description:
+      "This is a project made for Final year project of ndt.",
+    skills: ["Node js", "Javascript", "React", "MongoDB"],
+    demo: "https://eco-weave-staff.vercel.app/login",
+    demo: "https://eco-weave-xi.vercel.app/",
+    source: "https://github.com/Gayasri72/EcoWeave",
+  },
+  {
     title: "Authentication App",
     topic: "NeoNest",
     bgImage: "/work-5.png",
