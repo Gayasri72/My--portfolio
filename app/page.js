@@ -8,6 +8,7 @@ import Header from "@/components/Header";
 import Navbar from "@/components/Navbar";
 import Services from "@/components/Services";
 import Work from "@/components/Work";
+import MouseFollowAnimation from "@/components/MouseFollowAnimation";
 import { useEffect, useState } from "react";
 
 export default function Home() {
@@ -35,15 +36,18 @@ export default function Home() {
 
   return (
     <>
-      <Navbar isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
-      <Header  isDarkMode={isDarkMode} />
-      <About   isDarkMode={isDarkMode}/>
-      <Services  isDarkMode={isDarkMode} />
-      <Certifications isDarkMode={isDarkMode}/>
-      <Work   isDarkMode={isDarkMode}/>
-      <Blog  isDarkMode={isDarkMode} />
-      <Contact  isDarkMode={isDarkMode} />
-      <Footer  isDarkMode={isDarkMode} />
+      <MouseFollowAnimation isDarkMode={isDarkMode} />
+      <div className="relative z-10">
+        <Navbar isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
+        <Header  isDarkMode={isDarkMode} />
+        <About   isDarkMode={isDarkMode}/>
+        <Services  isDarkMode={isDarkMode} />
+        <Certifications isDarkMode={isDarkMode}/>
+        <Work   isDarkMode={isDarkMode}/>
+        <Blog  isDarkMode={isDarkMode} />
+        <Contact  isDarkMode={isDarkMode} />
+        <Footer  isDarkMode={isDarkMode} />
+      </div>
     </>
   );
 }
