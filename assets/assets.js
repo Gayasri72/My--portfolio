@@ -35,6 +35,12 @@ import right_arrow from "./right-arrow.png";
 import send_icon from "./send-icon.png";
 import right_arrow_bold from "./right-arrow-bold.png";
 import right_arrow_bold_dark from "./right-arrow-bold-dark.png";
+import linux from "./linux.png";
+import kubernetes from "./kubernetes.png";
+import docker from "./docker.png";
+import terraform from "./terraform.png";
+import ansible from "./ansible.png";
+
 
 export const assets = {
   user_image,
@@ -74,6 +80,11 @@ export const assets = {
   send_icon,
   right_arrow_bold,
   right_arrow_bold_dark,
+  docker,
+  kubernetes,
+  linux,
+  terraform,
+  ansible,
 };
 
 export const workData = [
@@ -237,6 +248,11 @@ export const toolsData = [
   assets.mongodb,
   assets.figma,
   assets.git,
+  assets.docker,
+  assets.kubernetes,
+  assets.linux,
+  assets.terraform,
+  assets.ansible,
 ];
 
 export const blogsData = [
